@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: slategrey;
+        }
+    .container{ 
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        width: 250px;
+        border: 10px solid #fff;
+        border-radius: 50%;
+        margin: -50px;
+        position: relative;
+    }
+    .photo1{
+        z-index:4 ;
+    }
+    .photo2{
+        z-index:3 ;
+    }
+    .photo3{
+        z-index:2 ;
+    }
+    .photo4{
+        z-index:1 ;
+    }
+</style>
+</head>
+<body>
+    <section class="container">
+        <img class="photo1" src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg" alt="">
+        <img class="photo2" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_170,w_170,f_auto,g_faces,z_0.7,b_white,q_auto:eco,dpr_1/smokhfs2uevnppc2bmwl" alt="">
+        <img class="photo3" src="https://leerob.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b1d1472f.jpg&w=256&q=75" alt="">
+        <img class="photo4" src="https://nextjs.org/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F35255%2F1665059775-delba.jpg&w=640&q=75" alt="">
+    </section>
+</body>
+</html>
